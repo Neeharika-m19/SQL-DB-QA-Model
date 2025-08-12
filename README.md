@@ -67,7 +67,7 @@ Create a `.env` in the repo root if you’ll use **Save Query**:
 AWS_ACCESS_KEY_ID=...
 AWS_SECRET_ACCESS_KEY=...
 AWS_DEFAULT_REGION=us-east-1
-S3_BUCKET=db-llm-saved-queries
+S3_BUCKET=your-bucket-name-here
 ```
 ### 4.Run the API
 
