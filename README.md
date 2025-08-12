@@ -39,7 +39,7 @@ db_llm/
 
 ## Backend — Setup & Run
 
-### 1.Create venv & install dependencies
+### 1. Create venv & install dependencies
 
 ```bash
 cd db_llm
@@ -52,14 +52,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ```
-### 2.Ensure data files exist
+### 2. Ensure data files exist
 
 - `data/northwind_small.sqlite` — sample DB (already in `data/`)
 
 > **Windows tip:** the backend looks for SQLite files under the repo’s `data/` directory.  
 > If you see “file not found,” make sure the filename you pick in the UI **exactly** matches the file in `data/`.
 ---
-### 3.(Optional) S3 environment
+### 3. (Optional) S3 environment
 
 Create a `.env` in the repo root if you’ll use **Save Query**:
 
@@ -69,7 +69,7 @@ AWS_SECRET_ACCESS_KEY=...
 AWS_DEFAULT_REGION=us-east-1
 S3_BUCKET=your-bucket-name-here
 ```
-### 4.Run the API
+### 4. Run the API
 
 ```bash
 uvicorn app:app --reload --port 8000
@@ -78,19 +78,19 @@ uvicorn app:app --reload --port 8000
 ```
 ## Frontend — Setup & Run
 
-### 1.Install dependencies
+### 1. Install dependencies
 ```bash
 cd frontend
 npm i
 ```
-### 2.Point frontend to the API
+### 2. Point frontend to the API
 
 Create `frontend/.env.local`:
 
 ```ini
 VITE_API_BASE_URL=http://127.0.0.1:8000
 ```
-### 3.Run the dev server
+### 3. Run the dev server
 
 ```bash
 npm run dev
