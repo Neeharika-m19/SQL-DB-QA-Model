@@ -54,7 +54,6 @@ pip install -r requirements.txt
 ```
 ### 2.Ensure data files exist
 
-- `data/db_llm.sqlite3` — created on first run  
 - `data/northwind_small.sqlite` — sample DB (already in `data/`)
 
 > **Windows tip:** the backend looks for SQLite files under the repo’s `data/` directory.  
