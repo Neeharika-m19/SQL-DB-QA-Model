@@ -1,0 +1,46 @@
+# --- Dependencies ---
+node_modules/
+.pnp/
+.pnp.js
+
+# --- Build output ---
+dist/
+build/
+.vite/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Environment files (keep example only) ---
+.env
+.env.local
+.env.*.local
+# keep a sample env in the repo
+!.env.example
+
+# --- Testing / Coverage ---
+coverage/
+*.spec.ts
+*.spec.js
+*.test.ts
+*.test.js
+
+# --- Editor / OS cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json   # keep recommended extensions if you add them
+
+# --- TypeScript / Tooling caches ---
+*.tsbuildinfo
+.eslintcache
+
+# --- Misc temp files ---
+*.swp
+*.swo
+*.tmp
